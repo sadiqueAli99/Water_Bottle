@@ -16,6 +16,7 @@ public class ContactTest {
 	
 	{
 		System.out.println("contact modified");
+		System.out.println("hello manju");
 	}
 
 }
