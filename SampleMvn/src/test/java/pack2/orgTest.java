@@ -15,5 +15,12 @@ public class orgTest {
 	{
 		System.out.println("org modified");
 	}
+	
+	@Test
+	public void Agasthya()
+	{
+		
+		System.out.println("Agasthya");
+	}
 
 }
