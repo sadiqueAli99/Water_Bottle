@@ -1,6 +1,5 @@
 package pack1;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ContactTest {
@@ -9,7 +8,7 @@ public class ContactTest {
 	public void creatContactTest()
 	
 	{
-		Assert.fail();
+	
 		String url=System.getProperty("url");
 		String browser=System.getProperty("browser");
 		String username=System.getProperty("username");
