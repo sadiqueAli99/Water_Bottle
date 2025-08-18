@@ -1,5 +1,6 @@
 package pack1;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ContactTest {
@@ -17,6 +18,7 @@ public class ContactTest {
 		System.out.println(username);
 		System.out.println(password);
 		System.out.println("contact created");
+		Assert.fail();
 	}
 	
 	@Test
