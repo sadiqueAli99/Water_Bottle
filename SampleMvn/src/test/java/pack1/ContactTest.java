@@ -9,6 +9,7 @@ public class ContactTest {
 	public void creatContactTest()
 	
 	{
+		Assert.fail();
 		String url=System.getProperty("url");
 		String browser=System.getProperty("browser");
 		String username=System.getProperty("username");
@@ -18,7 +19,7 @@ public class ContactTest {
 		System.out.println(username);
 		System.out.println(password);
 		System.out.println("contact created");
-		Assert.fail();
+		
 	}
 	
 	@Test
