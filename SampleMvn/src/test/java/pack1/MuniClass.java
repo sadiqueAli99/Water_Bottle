@@ -8,6 +8,7 @@ public class MuniClass {
 	public void muniDemo()
 	{
 		System.out.println("water battle for muni raj");
+		System.out.println("no muni here");
 	}
 
 }
